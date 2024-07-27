@@ -3,7 +3,7 @@ function ContactForm() {
   return (
     <section id="contact" className="py-12 bg-purple-100 ">
       <div className="container flex mx-auto text-center">
-        <h2 className="text-3xl font-bold text-gray-800">We Would Love to Have You Onboard</h2>
+        <h2 className="px-20 ml-56 text-5xl font-bold text-center text-red-400 mt-36">We Would Love to Have You Onboard</h2>
         <form className="max-w-lg px-5 mx-auto mt-8 bg-purple-400 rounded-lg">
           <h1 className='text-2xl font-bold text-white'>Join us</h1>
           <div className="grid grid-cols-1 gap-4">
