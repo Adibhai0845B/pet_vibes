@@ -16,11 +16,11 @@ function Blogs() {
           </div>
           <div className="p-6 bg-white rounded-lg shadow-lg">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgDFp3dmPTGj1xOEuSlAt-ilTfBOmYfth5hQ&s" alt="Senior Dog Care" className="object-cover w-full h-32 rounded-lg" />
-            <h3 className="mt-4 text-2xl font-semibold text-gray-700 bg-yellow-500">Senior Dog Care</h3>
+            <h3 className="mt-4 text-2xl font-semibold text-gray-700 bg-yellow-500 rounded-lg">Senior Dog Care</h3>
           </div>
           <div className="p-6 bg-white rounded-lg shadow-lg">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR515oznNgiGj3dD01gQFy5jRV8WpHXpQFgOQ&s" alt="Behaviour" className="object-cover w-full h-32 rounded-lg" />
-            <h3 className="mt-4 text-2xl font-semibold text-gray-700 bg-yellow-500">Behaviour</h3>
+            <h3 className="mt-4 text-2xl font-semibold text-gray-700 bg-yellow-500 rounded-lg">Behaviour</h3>
           </div>
         </div>
       </div>

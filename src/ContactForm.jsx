@@ -13,7 +13,7 @@ function ContactForm() {
             <input type="text" placeholder="Phone" className="px-4 py-2 border border-gray-300 rounded" />
             <textarea placeholder="What to register as" className="px-4 py-2 border border-gray-300 rounded"></textarea>
           </div>
-          <button className="px-4 py-2 mt-4 text-white bg-yellow-600 rounded">Submit</button>
+          <button className="px-4 py-1 mt-4 text-white bg-yellow-600 rounded-lg">Submit</button>
         </form>
       </div>
     </section>

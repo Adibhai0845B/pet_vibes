@@ -1,37 +1,4 @@
-/*
 import React from 'react';
-
-function Header() {
-  return (
-    <header className="p-8 bg-white-100">
-      <div className="container flex items-center justify-between mx-auto">
-        <div className="flex items-center">
-          <img src="https://e7.pngegg.com/pngimages/35/114/png-clipart-dog-cat-paw-decal-paw-print-animals-pet-thumbnail.png" alt="Logo" className="h-12" />
-          <span className="ml-4 text-xl font-bold text-black">Pet Vibes</span>
-        </div>
-        <nav>
-          <ul className="flex space-x-4">
-            <li><a href="#home" className="px-4 text-2xl text-black">Home</a></li>
-            <li><a href="#about" className="px-4 text-2xl text-black">About Us</a></li>
-            <li><a href="#services" className="px-4 text-2xl text-black ">Categories</a></li>
-            <li><a href="#contact" className="px-4 text-2xl text-black">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div className="mt-8 text-right ">
-        <h1 className="font-bold text-purple-700 text-7xl">One-stop destination </h1>
-        <h1 className="text-4xl font-bold text-purple-700">for all things pet related </h1>
-        <p className="mt-4 text-purple-600">Discover the best experiences for your pet!</p>
-        <button className="px-4 py-2 mt-4 text-white bg-yellow-600 rounded ">Join Us</button>
-        </div>
-    </header>
-  );
-}
-
-export default Header;
-*/
-import React from 'react';
-
 function Header() {
   return (
     <header className="p-8 bg-white-100">
@@ -47,6 +14,7 @@ function Header() {
             <li><a href="#services" className="px-4 text-2xl text-black">Categories</a></li>
             <li><a href="#contact" className="px-4 text-2xl text-black">Contact</a></li>
           </ul>
+          <hr></hr>
         </nav>
       </div>
       <div className="flex items-center justify-between mt-8">
