@@ -1,23 +1,70 @@
 import React from 'react';
-function ContactForm() {
+import './styles.css'; 
+
+const ContactForm = () => {
   return (
-    <section id="contact" className="py-12 bg-purple-100 ">
-      <div className="container flex mx-auto text-center">
-        <h2 className="px-20 ml-56 text-5xl font-bold text-center text-red-400 mt-36">We Would Love to Have You Onboard</h2>
-        <form className="max-w-lg px-5 mx-auto mt-8 bg-purple-400 rounded-lg">
-          <h1 className='text-2xl font-bold text-white'>Join us</h1>
-          <div className="grid grid-cols-1 gap-4">
-            <input type="text" placeholder="Business Name" className="px-4 py-2 border border-gray-300 rounded" />
-            <input type="text" placeholder="Your Name" className="px-4 py-2 border border-gray-300 rounded" />
-            <input type="email" placeholder="Email" className="px-4 py-2 border border-gray-300 rounded" />
-            <input type="text" placeholder="Phone" className="px-4 py-2 border border-gray-300 rounded" />
-            <textarea placeholder="What to register as" className="px-4 py-2 border border-gray-300 rounded"></textarea>
+    <div className="relative flex flex-col items-center justify-center p-8 bg-purple-50">
+      <div className="absolute inset-0 h-40 mt-40 bg-purple-200"></div>
+      <div className="relative z-10 flex flex-col items-center w-full md:flex-row">
+        <div className="flex flex-col items-center justify-center w-full px-8 md:w-1/2">
+          <h2 className="text-5xl font-bold text-center text-red-500 md:text-left">WE WOULD LOVE TO HAVE YOU ONBOARD</h2>
+          <p className="mt-4 text-xl font-bold text-center text-black md:text-left">Reach out to us for more details</p>
+        </div>
+        <div className="flex justify-center w-full mt-8 md:w-1/2 md:mt-0">
+          <div className="p-6 bg-purple-400 rounded-lg shadow-lg w-80 transition-bg-color hover:bg-purple-500">
+            <h3 className="mb-4 text-2xl font-bold text-center text-white">JOIN US!</h3>
+            <form className="space-y-4">
+              <input type="text" placeholder="Business Name" className="w-full p-3 font-bold text-black bg-purple-300 rounded-md focus:outline-none" />
+              <input type="email" placeholder="Email" className="w-full p-3 font-bold bg-purple-300 rounded-md focus:outline-none" />
+              <input type="tel" placeholder="Phone no." className="w-full p-3 font-bold text-black bg-purple-300 rounded-md focus:outline-none" />
+              <select className="w-full p-3 bg-purple-300 rounded-md focus:outline-none">
+                <option>Want to register as</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+              </select>
+              <button type="submit" className="justify-center p-3 ml-24 text-white bg-yellow-500 rounded-md focus:outline-none hover:bg-yellow-600">SUBMIT</button>
+            </form>
           </div>
-          <button className="px-4 py-0 mt-4 text-white bg-yellow-600 rounded-lg">Submit</button>
-        </form>
+        </div>
       </div>
-    </section>
+    </div>
   );
-}
+};
 
 export default ContactForm;
+
+/*import React from 'react';
+import './styles.css'; 
+
+const ContactForm = () => {
+  return (
+    <div className="relative flex flex-col items-center justify-center p-8 bg-purple-50">
+      <div className="absolute inset-0 h-40 mt-40 bg-purple-200 md:h-full md:mt-0"></div>
+      <div className="relative z-10 flex flex-col items-center w-full md:flex-row md:items-start md:justify-between">
+        <div className="flex flex-col items-center justify-center w-full px-8 md:w-1/2">
+          <h2 className="text-5xl font-bold text-center text-red-500 md:text-left">WE WOULD LOVE TO HAVE YOU ONBOARD</h2>
+          <p className="mt-4 text-xl font-bold text-center text-black md:text-left">Reach out to us for more details</p>
+        </div>
+        <div className="flex justify-center w-full mt-8 md:w-1/2 md:mt-0">
+          <div className="p-6 bg-purple-400 rounded-lg shadow-lg w-80 transition-bg-color hover:bg-purple-500">
+            <h3 className="mb-4 text-2xl font-bold text-center text-white">JOIN US!</h3>
+            <form className="space-y-4">
+              <input type="text" placeholder="Business Name" className="w-full p-3 font-bold text-black bg-purple-300 rounded-md focus:outline-none" />
+              <input type="email" placeholder="Email" className="w-full p-3 font-bold bg-purple-300 rounded-md focus:outline-none" />
+              <input type="tel" placeholder="Phone no." className="w-full p-3 font-bold text-black bg-purple-300 rounded-md focus:outline-none" />
+              <select className="w-full p-3 bg-purple-300 rounded-md focus:outline-none">
+                <option>Want to register as</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+              </select>
+              <button type="submit" className="w-full p-3 text-white bg-yellow-500 rounded-md focus:outline-none hover:bg-yellow-600 md:ml-24 md:w-auto">SUBMIT</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ContactForm;
+*/
