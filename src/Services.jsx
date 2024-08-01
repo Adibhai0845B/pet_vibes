@@ -54,7 +54,7 @@ function Services() {
 export default Services;
 */
 import React from 'react';
-
+import './styles.css'; 
 function Services() {
   return (
     <section className="py-12 bg-gray-100">

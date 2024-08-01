@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles.css'; 
 function Reviews() {
   return (
     <section id="reviews" className="py-12 ">

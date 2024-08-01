@@ -39,7 +39,7 @@ function Header() {
 export default Header; */ 
 import React from 'react';
 import ineed from './ineed.jpg';
-
+import './styles.css'; 
 function Header() {
   return (
     <header className="p-8 bg-white-100">

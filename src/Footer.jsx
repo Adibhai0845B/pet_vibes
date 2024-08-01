@@ -1,6 +1,6 @@
 import React from 'react';
 import as from './as.png';
-
+import './styles.css'; 
 const Footer = () => {
   return (
     <footer className="text-gray-600 bg-white ">

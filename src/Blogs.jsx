@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './styles.css'; 
 const blogs = [
   {
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR515oznNgiGj3dD01gQFy5jRV8WpHXpQFgOQ&s', 

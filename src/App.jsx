@@ -6,7 +6,7 @@ import ContactForm from './ContactForm';
 import Reviews from './Reviews';
 import Blogs from './Blogs';
 import Footer from './Footer';
-
+import './styles.css'; 
 function App() {
   return (
     <div className="App">

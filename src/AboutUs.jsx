@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './styles.css'; 
 const AboutUs = () => {
   return (
     <div className="flex flex-col items-center p-8 bg-purple-100">
